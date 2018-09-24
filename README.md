@@ -53,5 +53,5 @@ Trim '5 end --> 25
 Trim '3 end --> 25
 ```
 ![Sequence trimmer options](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/PrimerTrimFull.PNG)
-* The output is displayed in the Galaxy history panel.
+* The output is displayed in the Galaxy history panel.  
 ![History panel trimmed primers](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/HistoryPanelPrimerTrimFull.PNG)
