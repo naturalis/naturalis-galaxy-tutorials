@@ -9,3 +9,4 @@ In order to start this tutorial, the example dataset will need to be downloaded 
 * The example dataset in .zip format can be downloaded
 * Create an account by clicking on ´you may create one´. And fill in the form.  
   Make sure to verify your email address.
+
