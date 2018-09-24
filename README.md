@@ -35,5 +35,6 @@ The example dataset exists out of 6 .fastq files. Every 2 files are linked as pa
 Minimum overlap --> 10
 Maximum overlap --> 300
 Mismatch ratio  --> 0.25
+Output          --> Output merged reads only
 ```
 
