@@ -10,4 +10,4 @@ In order to start this tutorial, the example dataset will need to be downloaded 
 * Create an account by clicking on ´you may create one´. And fill in the form.  
   Make sure to verify your email address.
 
-[Link to account creation form](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/CreateAccountFull.PNG)
+![Link to account creation form](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/CreateAccountFull.PNG)
