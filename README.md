@@ -47,10 +47,11 @@ The example dataset has now been merged. However, it still contains universal IT
 * Select "FASTQ" under "**File in FASTA or FASTQ format?**"
 * Select "FASTQ" under "**Ouput in FASTA or FASTQ format?**"
 * Select "**Tutorial_Samples.zip zip**" (the output file from step 2) under "**ZIP file**"
-* Change the settings below, remaining settings can be kept at default.
+* Change the settings below. Remaining settings can be kept at default.
 ```
 Trim '5 end --> 25
 Trim '3 end --> 25
 ```
-![Sequence trimmer options](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/PrimerTrimFull.PNG)  
+![Sequence trimmer options](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/PrimerTrimFull.PNG)
+* The output is displayed in the Galaxy history panel.
 ![History panel trimmed primers](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/HistoryPanelPrimerTrimFull.PNG)
