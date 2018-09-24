@@ -37,4 +37,4 @@ Maximum overlap --> 300
 Mismatch ratio  --> 0.25
 Output          --> Output merged reads only
 ```
-
+![History panel merged reads](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/MergedReadsFull.PNG)
