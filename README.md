@@ -30,4 +30,7 @@ Merge Illumina paired-end reads.
 The example dataset exists out of 6 .fastq files. Every 2 files are linked as pairs. Those pairs need to be merged into single reads.
 * Select the "Merge reads" tool under "**Processing tools**".
 * Select the "**Tutorial_Samples.zip**" under "**zip file containing fasta or fastq files**"
-
+* Further settings can be kept at default
+"""
+**Minimum overlap**
+"""
