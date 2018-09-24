@@ -24,6 +24,6 @@ Files of almost any kind can be uploaded to Galaxy. This is done by clicking on 
 * Manually set the format for the file to “zip”.  
 
 ![Search field for file format](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/UploadManualFull.PNG)
-* Click on "start" to submit the dataset. The dataset will show up in the Galaxy history panel on the right side of the screen
+* Click on "start" to submit the dataset. The dataset will show up in the Galaxy history panel on the right side of the screen.
 
 ![Button for starting file upload]()
