@@ -6,7 +6,7 @@ This tutorial will show a step by step introduction of the Naturalis Galaxy pipe
 
 ### Preparations:
 In order to start this tutorial, the example dataset will need to be downloaded and an account on the Naturalis Galaxy instance will need to be created.
-* The example dataset in .zip format can be downloaded [here](https://drive.google.com/open?id=1NrdTEC7X2QFrMDJX640B3N5NRp5kRs_R)
+* The example dataset in .zip format can be downloaded [here](https://drive.google.com/open?id=1NrdTEC7X2QFrMDJX640B3N5NRp5kRs_R).
 * Create an account by clicking on ´you may create one´. And fill in the form.    
 ![Link to account creation form](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/CreateAccountFull.PNG)
 * Make sure to verify your email address.
@@ -27,10 +27,10 @@ Files of almost any kind can be uploaded to Galaxy. This is done by clicking on 
 
 ### Step 2:
 Merge Illumina paired-end reads.  
-The example dataset exists out of 6 .fastq files. Every 2 files are linked as pairs. Those pairs need to be merged into single reads.
-* Select the "Merge reads" tool under "**Processing tools**".
-* Select the "**Tutorial_Samples.zip**" under "**zip file containing fasta or fastq files**"
-* Further settings can be kept at default
+The example dataset exists of 6 .fastq files. Every 2 files are linked as pairs. Those pairs need to be merged into single reads.
+* Select the "Merge reads" tool under "**Processing Tools**".
+* Select the "**Tutorial_Samples.zip**" under "**zip file containing fasta or fastq files**".
+* Further settings can be kept at default.
 ```
 Minimum overlap --> 10
 Maximum overlap --> 300
@@ -38,3 +38,8 @@ Mismatch ratio  --> 0.25
 Output          --> Output merged reads only
 ```
 ![History panel merged reads](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/MergedReadsFull.PNG)
+
+### Step 3:
+Trim Illumina primers.
+The example dataset has now been merged. However, it still contains universal ITS primers. These need to be trimmed off in order to gain true organism specific reads.
+* Select the "Trim primers" tool under "**Processing Tools**".
