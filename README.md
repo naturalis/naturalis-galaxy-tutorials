@@ -26,3 +26,6 @@ Files of almost any kind can be uploaded to Galaxy. This is done by clicking on 
 ![History panel](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/HistoryPanelFull.PNG)
 
 ### Step 2:
+Merge Illumina paired-end reads.
+The example dataset exists out of 6 .fastq files. Every 2 files is linked as pairs. Those pairs need to be merged into single reads.
+* Find the "Merge reads" tool under "**Processing tools**".
