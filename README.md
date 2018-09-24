@@ -16,8 +16,11 @@ In order to start this tutorial, the example dataset will need to be downloaded 
 Upload the example dataset to the Naturalis Galaxy instance.  
 Files of almost any kind can be uploaded to Galaxy. This is done by clicking on upload button in the upper left corner.
 * Click on the “up” arrow in the upper left corner (next to the “**Tools**” menu name).  
+
 ![Upload file button](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/UploadFileFull.PNG)
 * Select the “Tutorial_Samples.zip” file.  
+
 ![Button for file choosing](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/ChooseFileFull.PNG)
 * Manually set the format for the file to “zip”.  
+
 ![Search field for file format](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/ManualFileFull.PNG)
