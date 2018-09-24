@@ -42,16 +42,13 @@ Output          --> Output merged reads only
 ### Step 3:
 Trim Illumina primers.
 The example dataset has now been merged. However, it still contains universal ITS primers. These need to be trimmed off in order to gain organism specific reads.
-* Select the "Trim primers" tool under "**Processing Tools**".
-* Select the "**Tutorial_Samples.zip zip**" (the output file from step 2) under "**zip file containing fasta or fastq files**"
-* Set further settings to the parameters below.
+* Select the "Sequence trimmer" tool under "**Processing Tools**".
+* Select "ZIP archive" under "**Single file or ZIP archive?**"
+* Select "FASTQ" under "**File in FASTA or FASTQ format?**"
+* Select "FASTQ" under "**Ouput in FASTA or FASTQ format?**"
+* Select "**Tutorial_Samples.zip zip**" (the output file from step 2) under "**ZIP file**"
+* Change the settings below, remaining settings can be kept at default.
 ```
-Input type                                     --> fastq files
-Settings mode                                  --> Forward needs to be present, reverse is optional
-Minimum overlapt length in bases               --> 15
-Maximum allowed error rate for primer trimming --> 0.2
-Minimum read length                            --> 15
-Forward primer sequence                        --> GCATCGATGAAGAACGCAGC
-Reverse primer sequence                        --> TCCTCCGCTTATTGATATGC
-Output untrimmed sequences                     --> No
+Trim '5 end --> 25
+Trim '3 end --> 25
 ```
