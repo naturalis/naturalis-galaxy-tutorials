@@ -31,6 +31,9 @@ The example dataset exists out of 6 .fastq files. Every 2 files are linked as pa
 * Select the "Merge reads" tool under "**Processing tools**".
 * Select the "**Tutorial_Samples.zip**" under "**zip file containing fasta or fastq files**"
 * Further settings can be kept at default
-"""
-**Minimum overlap**
-"""
+```
+Minimum overlap --> 10
+Maximum overlap --> 300
+Mismatch ratio  --> 0.25
+```
+
