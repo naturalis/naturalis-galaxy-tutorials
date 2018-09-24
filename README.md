@@ -52,4 +52,5 @@ The example dataset has now been merged. However, it still contains universal IT
 Trim '5 end --> 25
 Trim '3 end --> 25
 ```
+![Sequence trimmer options](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/PrimerTrimFull.PNG)
 ![History panel trimmed primers](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/HistoryPanelPrimerTrimFull.PNG)
