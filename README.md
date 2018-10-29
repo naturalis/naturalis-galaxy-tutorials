@@ -80,3 +80,8 @@ The majority of reads, and the largest peak can be found at a length of 359. Eve
 Trim reads from 3'-end to certain legnth --> 359
 Discard reads below certain length       --> 300
 ```
+The results of this trimming can be checked by doing another sequence analysis.  
+![Sequence length analysis]()
+
+### Step 6:
+Clustering and OTU generation.  
