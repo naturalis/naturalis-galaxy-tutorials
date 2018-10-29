@@ -77,6 +77,6 @@ The majority of reads, and the largest peak can be found at a length of 359. Eve
 * Select "**Trimmed_Zip**" (the output file from step 4) under "**Zip file.**"
 * Change the settings below. Remaining settings can be kept at default.
 ```
-Trim reads from 3'-end to certain legnth --> 360
+Trim reads from 3'-end to certain legnth --> 359
 Discard reads below certain length       --> 300
 ```
