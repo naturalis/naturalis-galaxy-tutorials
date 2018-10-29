@@ -70,7 +70,7 @@ The clustering methods UPARSE and UNOISE available in the Naturalis Galaxy pipel
 
 ### Step 5:
 Trim reads to same length.  
-The majority of reads, and the largest peak can be found at a length of 360. Everything beyond that length can be cut back to 360 from the 3’-end. Anything below a length of 300 can be discarded.  
+The majority of reads, and the largest peak can be found at a length of 359. Everything beyond that length can be cut back to 359 from the 3’-end. Anything below a length of 300 can be discarded.  
 ![Sequence length distribution](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/LengthTrimmingFull.PNG)
 * Select the "CuAdapt Sequence Trimmer" tool under "**Processing Tools**".
 * Select "Zip file" under "**FastQ or zip?**"
