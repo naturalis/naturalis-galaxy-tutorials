@@ -85,3 +85,10 @@ The results of this trimming can be checked by doing another sequence analysis.
 
 ### Step 6:
 Clustering and OTU generation.  
+The example dataset has now been prepared for clustering. The clustering method for this tutorial will be UPARSE.
+* Select the "Make out table" tool under "**Cluster Tools**".
+* Select "UPARSE" under "**Clustering**".
+* Remaining settings can be kept at default.
+
+The output table will look like this.
+![OTU output table one]()
