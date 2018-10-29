@@ -90,5 +90,5 @@ The example dataset has now been prepared for clustering. The clustering method 
 * Select "UPARSE" under "**Clustering**".
 * Remaining settings can be kept at default.
 
-The output table will look like this.
-![OTU output table one]()
+The output table will look like this.  
+![OTU output table one](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/OTUTableOne.PNG)
