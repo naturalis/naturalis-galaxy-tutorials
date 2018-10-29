@@ -53,3 +53,11 @@ Trim reads at the 3'-end
 ![Sequence trimmer options](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/PrimerTrimmingFull.PNG)
 * The output is displayed in the Galaxy history panel.  
 ![History panel trimmed primers](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/HistoryPanelPrimerTrimmingFull.png)
+
+### Step 4:
+Run sequence analyzer.
+With the universal ITS primers trimmed off, the reads are ready for a sequence analyzer.
+* Select the "PRINSEQ Sequence Analyzer" tool under "**Analysis Tools**".
+* Select "Zip file" under "**Single or zip file?**".
+* Select "FastQ file(s)" under "**FastQ or fastA file(s).**".
+* Select "**Trimmed_Zip**" (the output file from step 3) under "**Zip file.**".
