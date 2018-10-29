@@ -62,7 +62,7 @@ With the universal ITS primers trimmed off, the reads are ready for a sequence a
 * Select "FastQ file(s)" under "**FastQ or fastA file(s).**".
 * Select "**Trimmed_Zip**" (the output file from step 3) under "**Zip file.**".
 The tool will output a file with a length distribution graphic.
-![Sequence analyzer output]()
+![Sequence analyzer output](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/SequenceAnalyzerOne.PNG)
 Based on this distribution, another set of trimming options can be determined.  
 The clustering methods UPARSE and UNOISE available in the Naturalis Galaxy pipeline require input that is as much of the same length as possible.
 
