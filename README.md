@@ -78,5 +78,5 @@ The majority of reads, and the largest peak can be found at a length of 360. Eve
 * Change the settings below. Remaining settings can be kept at default.
 ```
 Trim reads from 3'-end to certain legnth --> 360
-Discard reads below certain length --> 300
+Discard reads below certain length       --> 300
 ```
