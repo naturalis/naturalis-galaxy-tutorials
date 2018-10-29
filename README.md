@@ -90,5 +90,7 @@ The example dataset has now been prepared for clustering. The clustering method 
 * Select "UPARSE" under "**Clustering**".
 * Remaining settings can be kept at default.
 
-The output table will look like this.  
+The output table will look like this. This file will be named "Trimmed Zip otu table".  
 ![OTU output table one](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/OTUTableOne.PNG)
+Along with the OTU table. A sequence file has been generated name "Trimmed Zip sequence".
+The third file "Trimmed Zip log" will not be used in this tutorial.
