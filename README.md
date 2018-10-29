@@ -50,6 +50,6 @@ The example dataset has now been merged. However, it still contains universal IT
 Trim reads at the 5'-end
 Trim reads at the 3'-end
 ```
-![Sequence trimmer options](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/PrimerTrimFull.PNG)
+![Sequence trimmer options](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/PrimerTrimmingFull.PNG)
 * The output is displayed in the Galaxy history panel.  
 ![History panel trimmed primers](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/HistoryPanelPrimerTrimFull.PNG)
