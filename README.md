@@ -42,15 +42,13 @@ Output          --> Output merged reads only
 ### Step 3:
 Trim Illumina primers.
 The example dataset has now been merged. However, it still contains universal ITS primers. These need to be trimmed off in order to gain organism specific reads.
-* Select the "Sequence trimmer" tool under "**Processing Tools**".
-* Select "ZIP archive" under "**Single file or ZIP archive?**"
-* Select "FASTQ" under "**File in FASTA or FASTQ format?**"
-* Select "FASTQ" under "**Ouput in FASTA or FASTQ format?**"
-* Select "**Tutorial_Samples.zip zip**" (the output file from step 2) under "**ZIP file**"
+* Select the "CuAdapt Sequence Trimmer" tool under "**Processing Tools**".
+* Select "Zip file" under "**FastQ or zip?**"
+* Select "**Tutorial_Samples.zip zip**" (the output file from step 2) under "**Zip file.**"
 * Change the settings below. Remaining settings can be kept at default.
 ```
-Trim '5 end --> 25
-Trim '3 end --> 25
+Trim reads at the 5'-end
+Trim reads at the 3'-end
 ```
 ![Sequence trimmer options](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/PrimerTrimFull.PNG)
 * The output is displayed in the Galaxy history panel.  
