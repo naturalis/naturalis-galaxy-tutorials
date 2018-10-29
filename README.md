@@ -81,7 +81,7 @@ Trim reads from 3'-end to certain legnth --> 359
 Discard reads below certain length       --> 300
 ```
 The results of this trimming can be checked by doing another sequence analysis.  
-![Sequence length analysis]()
+![Sequence length analysis](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/SequenceAnalyzerTwo.PNG)
 
 ### Step 6:
 Clustering and OTU generation.  
