@@ -40,7 +40,7 @@ Output          --> Output merged reads only
 ![History panel merged reads](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/MergedReadsFull.PNG)
 
 ### Step 3:
-Trim Illumina primers.
+Trim Illumina primers.  
 The example dataset has now been merged. However, it still contains universal ITS primers. These need to be trimmed off in order to gain organism specific reads.
 * Select the "CuAdapt Sequence Trimmer" tool under "**Processing Tools**".
 * Select "Zip file" under "**FastQ or zip?**"
@@ -55,9 +55,16 @@ Trim reads at the 3'-end
 ![History panel trimmed primers](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/HistoryPanelPrimerTrimmingFull.png)
 
 ### Step 4:
-Run sequence analyzer.
+Run sequence analyzer.  
 With the universal ITS primers trimmed off, the reads are ready for a sequence analyzer.
 * Select the "PRINSEQ Sequence Analyzer" tool under "**Analysis Tools**".
 * Select "Zip file" under "**Single or zip file?**".
 * Select "FastQ file(s)" under "**FastQ or fastA file(s).**".
 * Select "**Trimmed_Zip**" (the output file from step 3) under "**Zip file.**".
+The tool will output a file with a length distribution graphic.
+![Sequence analyzer output]()
+Based on this distribution, another set of trimming options can be determined.  
+The clustering methods UPARSE and UNOISE available in the Naturalis Galaxy pipeline require input that is as much of the same length as possible.
+
+### Step 5:
+Trim reads to same length.  
