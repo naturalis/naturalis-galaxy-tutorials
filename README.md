@@ -47,8 +47,8 @@ The example dataset has now been merged. However, it still contains universal IT
 * Select "**Tutorial_Samples.zip zip**" (the output file from step 2) under "**Zip file.**"
 * Change the settings below. Remaining settings can be kept at default.
 ```
-Trim reads at the 5'-end
-Trim reads at the 3'-end
+Trim reads at the 5'-end --> 25
+Trim reads at the 3'-end --> 25
 ```
 ![Sequence trimmer options](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/PrimerTrimmingFull.PNG)
 
@@ -70,3 +70,13 @@ The clustering methods UPARSE and UNOISE available in the Naturalis Galaxy pipel
 
 ### Step 5:
 Trim reads to same length.  
+The majority of reads, and the largest peak can be found at a length of 360. Everything beyond that length can be cut back to 360 from the 3’-end. Anything below a length of 300 can be discarded.  
+![Sequence length distribution]()
+* Select the "CuAdapt Sequence Trimmer" tool under "**Processing Tools**".
+* Select "Zip file" under "**FastQ or zip?**"
+* Select "**Trimmed_Zip**" (the output file from step 4) under "**Zip file.**"
+* Change the settings below. Remaining settings can be kept at default.
+```
+Trim reads from 3'-end to certain legnth --> 360
+Discard reads below certain length --> 300
+```
