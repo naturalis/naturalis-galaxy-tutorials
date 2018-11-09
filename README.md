@@ -92,9 +92,9 @@ The example dataset has now been prepared for clustering. The clustering method 
 
 The output table will look like this. This file will be named "Trimmed Zip otu table".  
 ![OTU output table one](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/OTUTableOne.PNG)  
-Along with the OTU table. A sequence file has been generated name "Trimmed Zip sequence".  
+Along with the OTU table. A sequence file has been generated named "Trimmed Zip sequence".  
 The third file "Trimmed Zip log" will not be used in this tutorial.  
 
 ### Step 7:
 Identifying OTUs.  
-A
+The newly generated file named "Trimmed Zip seqeunce" can be used to identify...
