@@ -42,7 +42,7 @@ Output          --> Output merged reads only
 ### Step 3:
 Trim Illumina primers.  
 The example dataset has now been merged. However, it still contains universal ITS primers. These need to be trimmed off in order to gain organism specific reads.
-* Select the "CuAdapt Sequence Trimmer" tool under "**Processing Tools**".
+* Select the "CutAdapt Sequence Trimmer" tool under "**Processing Tools**".
 * Select "Zip file" under "**FastQ or zip?**"
 * Select "**Tutorial_Samples.zip zip**" (the output file from step 2) under "**Zip file.**"
 * Change the settings below. Remaining settings can be kept at default.
