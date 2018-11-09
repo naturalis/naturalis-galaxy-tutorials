@@ -2,7 +2,7 @@
 A "how to" tutorial for the use of the Naturalis Galaxy pipeline
 
 ## Analysing a mixed amplicon dataset
-This tutorial will show a step by step introduction of the Naturalis Galaxy pipeline. The tutorial will use an example dataset that was sequenced paired-end with the Illumina MiSeq. This dataset consist out of environmental air samples collected in Leiden. The dataset contains ITS (Internal Transcribed Spacer region) sequences packaged in six .fastq files.
+This tutorial will show a step by step introduction of the Naturalis Galaxy pipeline. The tutorial will use an example dataset that was sequenced paired-end with the Illumina MiSeq. This dataset consists of environmental air samples collected in Leiden. The dataset contains ITS (Internal Transcribed Spacer region) sequences packaged in six .fastq files.
 
 ### Preparations:
 In order to start this tutorial, the example dataset will need to be downloaded and an account on the Naturalis Galaxy instance will need to be created.
