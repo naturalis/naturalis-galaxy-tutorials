@@ -56,7 +56,7 @@ The output is displayed in the Galaxy history panel.
 ![History panel trimmed primers](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/HistoryPanelPrimerTrimmingFull.png)
 
 ### Step 4:
-Run sequence analyzer.  
+Run a sequence analysis.  
 With the universal ITS primers trimmed off, the reads are ready for a sequence analyzer.
 * Select the "PRINSEQ Sequence Analyzer" tool under "**Analysis Tools**".
 * Select "Zip file" under "**Single or zip file?**".
@@ -66,11 +66,11 @@ With the universal ITS primers trimmed off, the reads are ready for a sequence a
 The tool will output a file with a length distribution graphic.  
 ![Sequence analyzer output](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/SequenceAnalyzerOne.PNG)  
 Based on this distribution, another set of trimming options can be determined.  
-The clustering methods UPARSE and UNOISE available in the Naturalis Galaxy pipeline require input that is as much of the same length as possible.
+The clustering methods UPARSE and UNOISE available in the Naturalis Galaxy pipeline work best with input that is as much of the same length as possible (without losing/trimming off to much of your dataset).
 
 ### Step 5:
 Trim reads to same length.  
-The majority of reads, and the largest peak can be found at a length of 359. Everything beyond that length can be cut back to 359 from the 3’-end. Anything below a length of 300 can be discarded.  
+The majority of reads, and the largest peak can be found at a length of 359. Everything beyond that length can be cut back to 359 from the 3’-end, this way you retain relevant informaion, but still achieve a smaller length distribution. Anything below a length of 300 can be discarded.  
 ![Sequence length distribution](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/LengthTrimmingFull.PNG)
 * Select the "CuAdapt Sequence Trimmer" tool under "**Processing Tools**".
 * Select "Zip file" under "**FastQ or zip?**"
