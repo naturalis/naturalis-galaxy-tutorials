@@ -107,3 +107,4 @@ The newly generated file named "**Trimmed_Zip sequence**" contains a representat
 Identity percentage cutoff --> 90
 ```
 The output BLAST table will contain 114 lines and look like this. The file will be named "**Trimmed_Zip sequence BLAST original taxonomy**".
+![BLAST output table one](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/BLASTTableOne.PNG)
