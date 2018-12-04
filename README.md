@@ -1,5 +1,5 @@
 # Naturalis Galaxy Tutorial
-A "how to" tutorial for the use of the Naturalis Galaxy pipeline
+A "how to" tutorial for the use of the Naturalis Galaxy pipeline.
 
 ## Analysing a mixed amplicon dataset
 This tutorial will show a step by step introduction of the Naturalis Galaxy pipeline. The tutorial will use an example dataset that was sequenced paired-end with the Illumina MiSeq. This dataset consists of environmental air samples collected in Leiden. The dataset contains ITS (Internal Transcribed Spacer region) sequences packaged in six .fastq files.
@@ -70,7 +70,7 @@ The clustering methods UPARSE and UNOISE available in the Naturalis Galaxy pipel
 
 ### Step 5:
 Trim reads to same length.  
-The majority of reads, and the largest peak can be found at a length of 359. Everything beyond that length can be cut back to 359 from the 3’-end, this way you retain relevant informaion, but still achieve a smaller length distribution. Anything below a length of 300 can be discarded.  
+The majority of reads, and the largest peak can be found at a length of 359. Everything beyond that length can be cut back to 359 from the 3’-end, this way you retain relevant information, but still achieve a smaller length distribution. Anything below a length of 300 can be discarded.  
 ![Sequence length distribution](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/LengthTrimmingFull.PNG)
 * Select the "CuAdapt Sequence Trimmer" tool under "**Processing Tools**".
 * Select "Zip file" under "**FastQ or zip?**"
@@ -86,7 +86,7 @@ The results of this trimming can be checked by doing another sequence analysis.
 ### Step 6:
 Clustering and OTU generation.  
 The example dataset has now been prepared for clustering. The clustering method for this tutorial will be UPARSE.
-* Select the "Make out table" tool under "**Cluster Tools**".
+* Select the "Make otu table" tool under "**Cluster Tools**".
 * Select "UPARSE" under "**Clustering**".
 * Remaining settings can be kept at default.
 
@@ -97,4 +97,11 @@ The third file "Trimmed Zip log" will not be used in this tutorial.
 
 ### Step 7:
 Identifying OTUs.  
-The newly generated file named "Trimmed Zip seqeunce" can be used to identify...
+The newly generated file named "Trimmed Zip sequence" contains a representative read for every generated OTU. These reads can be used to identify the species linked to a OTU.
+* Select the "Identify reads with blastn and find taxonomy" tool under "**Identification Tools**".
+* Select "**Trimmed_Zip sequence**" (the output file from step 6) under "**fasta file**".
+* Select "ITS (Genbank 22-11-2018)" under "**Database**".
+* Change the settings below. Remaining settings can be kept at default.
+```
+Identity percentage cutoff --> 90
+```
