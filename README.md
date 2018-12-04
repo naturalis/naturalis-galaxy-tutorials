@@ -124,5 +124,5 @@ The representative OTU sequences have been identified. They can be merged with t
 * Change the settings below. Remaining settings can be kept at default.
 ```
 Metadata input type --> BLAST
-Fill out’s with N/A value if not in metadata --> Yes
+Fill otu’s with N/A value if not in metadata --> Yes
 ```
