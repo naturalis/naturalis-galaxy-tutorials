@@ -114,6 +114,7 @@ This file contains a lot of information.
 * Identity percentage: this column contains a percentage specific to every identification, the percentage shows how much the query and the database reference are alike, 100% is a very good identification.
 * Source: this column shows the reference database used to retrieve the taxonomy information.
 * Taxonomy: this column shows the full taxonomic information for an identification, starting at Kingdom / Phylum / Class / Order / Family / Genus / Species.
+
 Changing the “Database” setting can output differing results, identifications are based on what a reference database contains, choosing the right database is important.  
 The Naturalis Galaxy pipeline offers multiple reference databases. The one selected in this tutorial is Genbank, but the public BOLD Systems database (BOLD (26-11-2018)) or private Naturalis plant database (ITS (NATURALIS 02-10-2018)) are also available.
 
