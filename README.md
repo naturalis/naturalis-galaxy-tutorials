@@ -106,5 +106,11 @@ The newly generated file named "**Trimmed_Zip sequence**" contains a representat
 ```
 Identity percentage cutoff --> 90
 ```
-The output BLAST table will contain 114 lines and look like this. The file will be named "**Trimmed_Zip sequence BLAST original taxonomy**".
-![BLAST output table one](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/BLASTTableOne.PNG)
+The output BLAST table will contain 114 lines and look like this. The file will be named "**Trimmed_Zip sequence BLAST original taxonomy**".  
+![BLAST output table one](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/BLASTTableOne.PNG)  
+This file contains a lot of information.  
+* Query ID: this column shows which OTU the identification belongs to.
+* Subject: this column is the full name of the database entry used for the identification.
+* Identity percentage: this column contains a percentage specific to every identification, the percentage shows how much the query and the database reference are alike, 100% is a very good identification.
+* Source: this column shows the reference database used to retrieve the taxonomy information.
+* Taxonomy: this column shows the full taxonomic information for an identification, starting at Kingdom / Phylum / Class / Order / Family / Genus / Species.
