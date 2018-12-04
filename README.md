@@ -43,8 +43,8 @@ Output          --> Output merged reads only
 Trim Illumina primers.  
 The example dataset has now been merged. However, it still contains universal ITS primers. These need to be trimmed off in order to gain organism specific reads.
 * Select the "CutAdapt Sequence Trimmer" tool under "**Processing Tools**".
-* Select "Zip file" under "**FastQ or zip?**"
-* Select "**Tutorial_Samples.zip zip**" (the output file from step 2) under "**Zip file.**"
+* Select "Zip file" under "**FastQ or zip?**".
+* Select "**Tutorial_Samples.zip zip**" (the output file from step 2) under "**Zip file.**".
 * Change the settings below. Remaining settings can be kept at default.
 ```
 Trim reads at the 5'-end --> 25
@@ -73,8 +73,8 @@ Trim reads to same length.
 The majority of reads, and the largest peak can be found at a length of 359. Everything beyond that length can be cut back to 359 from the 3’-end, this way you retain relevant information, but still achieve a smaller length distribution. Anything below a length of 300 can be discarded.  
 ![Sequence length distribution](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/LengthTrimmingFull.PNG)
 * Select the "CuAdapt Sequence Trimmer" tool under "**Processing Tools**".
-* Select "Zip file" under "**FastQ or zip?**"
-* Select "**Trimmed_Zip**" (the output file from step 4) under "**Zip file.**"
+* Select "Zip file" under "**FastQ or zip?**".
+* Select "**Trimmed_Zip**" (the output file from step 4) under "**Zip file.**".
 * Change the settings below. Remaining settings can be kept at default.
 ```
 Trim reads from 3'-end to certain legnth --> 359
@@ -87,17 +87,18 @@ The results of this trimming can be checked by doing another sequence analysis.
 Clustering and OTU generation.  
 The example dataset has now been prepared for clustering. The clustering method for this tutorial will be UPARSE.
 * Select the "Make otu table" tool under "**Cluster Tools**".
+* Select "**Trimmed_Zip**" (the output file from step 5) under "**zip file containing fasta or fastq files**".
 * Select "UPARSE" under "**Clustering**".
 * Remaining settings can be kept at default.
 
-The output table will look like this. This file will be named "Trimmed Zip otu table".  
+The output table will look like this. This file will be named "**Trimmed_Zip otu table**".  
 ![OTU output table one](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/OTUTableOne.PNG)  
 Along with the OTU table. A sequence file has been generated named "Trimmed Zip sequence".  
-The third file "Trimmed Zip log" will not be used in this tutorial.  
+The third file "Trimmed_Zip log" will not be used in this tutorial.  
 
 ### Step 7:
 Identifying OTUs.  
-The newly generated file named "Trimmed Zip sequence" contains a representative read for every generated OTU. These reads can be used to identify the species linked to a OTU.
+The newly generated file named "**Trimmed_Zip sequence**" contains a representative read for every generated OTU. These reads can be used to identify the species linked to a OTU.
 * Select the "Identify reads with blastn and find taxonomy" tool under "**Identification Tools**".
 * Select "**Trimmed_Zip sequence**" (the output file from step 6) under "**fasta file**".
 * Select "ITS (Genbank 22-11-2018)" under "**Database**".
@@ -105,3 +106,4 @@ The newly generated file named "Trimmed Zip sequence" contains a representative 
 ```
 Identity percentage cutoff --> 90
 ```
+The output BLAST table will contain 114 lines and look like this. The file will be named "**Trimmed_Zip sequence BLAST original taxonomy**".
