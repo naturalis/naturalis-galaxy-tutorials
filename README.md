@@ -106,7 +106,7 @@ The newly generated file named "**Trimmed_Zip sequence**" contains a representat
 ```
 Identity percentage cutoff --> 90
 ```
-The output BLAST table will contain 114 lines and look like this. The file will be named "**Trimmed_Zip sequence BLAST original taxonomy**".  
+The output BLAST table will contain 114 lines and look like this. This file will be named "**Trimmed_Zip sequence BLAST original taxonomy**".  
 ![BLAST output table one](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/BLASTTableOne.PNG)  
 This file contains a lot of information.  
 * Query ID: this column shows which OTU the identification belongs to.
@@ -126,3 +126,5 @@ The representative OTU sequences have been identified. They can be merged with t
 Metadata input type --> BLAST
 Fill otu’s with N/A value if not in metadata --> Yes
 ```
+The output table will look like this. This file will be named "**Trimmed_Zip otu table metadata**".
+![OTU BLAST tables merged one](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/OTUBLASTTablesMergedOne.PNG)
