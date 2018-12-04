@@ -114,3 +114,15 @@ This file contains a lot of information.
 * Identity percentage: this column contains a percentage specific to every identification, the percentage shows how much the query and the database reference are alike, 100% is a very good identification.
 * Source: this column shows the reference database used to retrieve the taxonomy information.
 * Taxonomy: this column shows the full taxonomic information for an identification, starting at Kingdom / Phylum / Class / Order / Family / Genus / Species.
+
+### Step 8:
+Merging BLAST table and OTU table.  
+The representative OTU sequences have been identified. They can be merged with the OTU table in order to create one final file.
+* Select the "Add metadata to otutable" tool under "**Metadata Tools**".
+* Select "**Trimmed_Zip sequence BLAST original taxonomy**" (the output file from step 7) under "**Metadata file (BLAST, LCA)**".
+* Select "**Trimmed_Zip otu table**" (the output file from step 6) under "**Otutable**".
+* Change the settings below. Remaining settings can be kept at default.
+```
+Metadata input type --> BLAST
+Fill out’s with N/A value if not in metadata --> Yes
+```
