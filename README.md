@@ -55,6 +55,8 @@ Trim reads at the 3'-end --> 25
 The output is displayed in the Galaxy history panel.  
 ![History panel trimmed primers](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/HistoryPanelPrimerTrimmingFull.png)
 
+A alternative from trimming of primers is the ´Trim primers” tool also under “**Processing Tools**”. This tool can search for the specific primer sequences and trim based on presence of primers.
+
 ### Step 4:
 Run a sequence analysis.  
 With the universal ITS primers trimmed off, the reads are ready for a sequence analyzer.
