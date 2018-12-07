@@ -4,14 +4,8 @@ A "how to" tutorial for the use of the Naturalis Galaxy pipeline.
 ## Analysing a mixed amplicon dataset
 This tutorial will show a step by step introduction of the Naturalis Galaxy pipeline. The tutorial will use an example dataset that was sequenced paired-end with the Illumina MiSeq. This dataset consists of environmental air samples collected in Leiden. The dataset contains ITS (Internal Transcribed Spacer region) sequences packaged in six .fastq files.
 
-### Preparations:
-In order to start this tutorial, the example dataset will need to be downloaded and an account on the Naturalis Galaxy instance will need to be created.
-* The example dataset in .zip format can be downloaded [here](https://drive.google.com/open?id=1NrdTEC7X2QFrMDJX640B3N5NRp5kRs_R).
-* Create an account by clicking on ´you may create one´. And fill in the form.    
-![Link to account creation form](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/CreateAccountFull.PNG)
-* Make sure to verify your email address.
-
 ### Table of contents:
+* [Preparations](https://github.com/JasperBoom/naturalis-galaxy-tutorial#preparations)
 * [Step 1](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-1)
 * [Step 2](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-2)
 * [Step 3](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-3)
@@ -20,7 +14,14 @@ In order to start this tutorial, the example dataset will need to be downloaded 
 * [Step 6](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-6)
 * [Step 7](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-7)
 * [Step 8](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-8)
-* [Taxonomic Accumulator]()
+* [Taxonomic Accumulator](https://github.com/JasperBoom/naturalis-galaxy-tutorial#taxonomic-accumulator)
+
+### Preparations:
+In order to start this tutorial, the example dataset will need to be downloaded and an account on the Naturalis Galaxy instance will need to be created.
+* The example dataset in .zip format can be downloaded [here](https://drive.google.com/open?id=1NrdTEC7X2QFrMDJX640B3N5NRp5kRs_R).
+* Create an account by clicking on ´you may create one´. And fill in the form.    
+![Link to account creation form](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/CreateAccountFull.PNG)
+* Make sure to verify your email address.
 
 ### Step 1:
 Upload the example dataset to the Naturalis Galaxy instance.  
