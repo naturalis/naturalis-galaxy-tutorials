@@ -1,6 +1,8 @@
 # Naturalis Galaxy Tutorial
 A "how to" tutorial for the use of the Naturalis Galaxy pipeline.
 
+[Testwijzer](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/README.md#step-8)
+
 ## Analysing a mixed amplicon dataset
 This tutorial will show a step by step introduction of the Naturalis Galaxy pipeline. The tutorial will use an example dataset that was sequenced paired-end with the Illumina MiSeq. This dataset consists of environmental air samples collected in Leiden. The dataset contains ITS (Internal Transcribed Spacer region) sequences packaged in six .fastq files.
 
