@@ -169,6 +169,7 @@ In order to collect this data:
 
 The output table will look like this. This file will be named either "Occurrence_Status" or "Pictures".  
 Occurrence status:  
-![Metadata Occurrence Status](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/MetaDataOccurrence.PNG)
+![Meta Data Occurrence Status](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/MetaDataOccurrence.PNG)
 
 Picture collection:  
+![Meta Data Pictures](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/MetaDataPictures.PNG)
