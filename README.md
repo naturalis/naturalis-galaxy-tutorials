@@ -167,7 +167,8 @@ In order to collect this data:
 * Select "OTU file + new BLAST" under "**OTU or LCA?**".
 * Select "**Trimmed_Zip otu table metadata**" (the output file from step 8)  under "**OTU file + new BLAST**".
 
-The output table will look like this. This file will be named either "Occurrence_Status" or "Pictures".  
+The output table will look like this. This file will be named either "Occurrence_Status" or "Pictures".
+
 Occurrence status:  
 ![Meta Data Occurrence Status](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/MetaDataOccurrence.PNG)
 
