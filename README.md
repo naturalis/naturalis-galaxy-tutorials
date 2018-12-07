@@ -155,4 +155,4 @@ In order to create this file:
 * Select "**Trimmed Zip otu table metadata**" (the output file from step 8) under "**OTU file + new BLAST**".
 
 The output table will look like this. This file will be named "**Accumulated**".  
-![Taxonomic Accumulator Output](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/TaxonomicAccumulatorOutput.PNG)
+![Taxonomic Accumulator Output](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/TaxonomicAccumulatorOutputTable.PNG)
