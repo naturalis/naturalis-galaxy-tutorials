@@ -27,13 +27,13 @@ In order to start this tutorial, the example dataset will need to be downloaded 
 Upload the example dataset to the Naturalis Galaxy instance.  
 Files of almost any kind can be uploaded to Galaxy. This is done by clicking on upload button in the upper left corner.
 * Click on the “up” arrow in the upper left corner (next to the “**Tools**” menu name).  
-![Upload file button](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/UploadFull.PNG)  
+![Upload file button](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/UploadFull.PNG)
 * Select the “Tutorial_Samples.zip” file.  
-![Button for file choosing](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/UploadSelectFull.PNG)  
+![Button for file choosing](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/UploadSelectFull.PNG)
 * Manually set the format for the file to “zip”.  
-![Search field for file format](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/UploadManualFull.PNG)  
+![Search field for file format](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/UploadManualFull.PNG)
 * Click on "start" to submit the dataset.  
-![Button for starting file upload](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/UploadStartFull.PNG)  
+![Button for starting file upload](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/UploadStartFull.PNG)
 * The dataset will show up in the Galaxy history panel on the right side of the screen.  
 ![History panel](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/HistoryPanelFull.PNG)
 
@@ -143,7 +143,7 @@ The representative OTU sequences have been identified. They can be merged with t
 Metadata input type --> BLAST
 Fill otu’s with N/A value if not in metadata --> Yes
 ```
-The output table will look like this. This file will be named "**Trimmed_Zip otu table metadata**".
+The output table will look like this. This file will be named "**Trimmed_Zip otu table metadata**".  
 ![OTU BLAST tables merged one](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/OTUBLASTTablesMergedOne.PNG)
 
 ### Taxonomic Accumulator
