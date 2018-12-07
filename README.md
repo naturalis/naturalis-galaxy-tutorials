@@ -15,6 +15,7 @@ This tutorial will show a step by step introduction of the Naturalis Galaxy pipe
 * [Step 7](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-7)
 * [Step 8](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-8)
 * [Taxonomic Accumulator](https://github.com/JasperBoom/naturalis-galaxy-tutorial#taxonomic-accumulator)
+* [Havest Meta Data](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/README.md#harvest-meta-data)
 
 ### Preparations:
 In order to start this tutorial, the example dataset will need to be downloaded and an account on the Naturalis Galaxy instance will need to be created.
