@@ -39,7 +39,7 @@ Files of almost any kind can be uploaded to Galaxy. This is done by clicking on 
 
 ### Step 2:
 Merge Illumina paired-end reads.  
-The example dataset exists of 6 .fastq files. Every 2 files are linked as pairs. Those pairs need to be merged into single reads.
+The example dataset exists of 6 .fastq files. The R1 and R2 files are linked as pairs. Those pairs need to be merged into single reads.
 * Select the "Merge reads" tool under "**Processing Tools**".
 * Select the "**Tutorial_Samples.zip**" under "**zip file containing fasta or fastq files**".
 * Further settings can be kept at default.
@@ -67,11 +67,11 @@ Trim reads at the 3'-end --> 25
 The output is displayed in the Galaxy history panel.  
 ![History panel trimmed primers](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/HistoryPanelPrimerTrimmingFull.png)
 
-A alternative from trimming of primers is the ´Trim primers” tool also under “**Processing Tools**”. This tool can search for the specific primer sequences and trim based on presence of primers.
+A alternative to trimming of primers is the ´Trim primers” tool also found under “**Processing Tools**”. This tool can search for the specific primer sequences and trim based on presence of primers.
 
 ### Step 4:
 Run a sequence analysis.  
-With the universal ITS primers trimmed off, the reads are ready for a sequence analyzer.
+With the universal ITS primers trimmed off, the reads are ready for a sequence analysis.
 * Select the "PRINSEQ Sequence Analyzer" tool under "**Analysis Tools**".
 * Select "Zip file" under "**Single or zip file?**".
 * Select "FastQ file(s)" under "**FastQ or fastA file(s).**".
@@ -80,7 +80,7 @@ With the universal ITS primers trimmed off, the reads are ready for a sequence a
 The tool will output a file with a length distribution graphic.  
 ![Sequence analyzer output](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/SequenceAnalyzerOne.PNG)  
 Based on this distribution, another set of trimming options can be determined.  
-The clustering methods UPARSE and UNOISE available in the Naturalis Galaxy pipeline work best with input that is as much of the same length as possible (without losing/trimming off to much of your dataset).
+The clustering methods UPARSE and UNOISE available in the Naturalis Galaxy pipeline work best with input that is as much of the same length as possible (without losing/trimming off too much of your dataset).
 
 ### Step 5:
 Trim reads to same length.  
@@ -112,7 +112,7 @@ The third file "Trimmed_Zip log" will not be used in this tutorial.
 
 ### Step 7:
 Identifying OTUs.  
-The newly generated file named "**Trimmed_Zip sequence**" contains a representative read for every generated OTU. These reads can be used to identify the species linked to a OTU.
+The newly generated file named "**Trimmed_Zip sequence**" contains a representative read for every clustered OTU. These reads can be used to identify the species linked to a OTU.
 * Select the "Identify reads with blastn and find taxonomy" tool under "**Identification Tools**".
 * Select "**Trimmed_Zip sequence**" (the output file from step 6) under "**fasta file**".
 * Select "ITS (Genbank 22-11-2018)" under "**Database**".
@@ -147,4 +147,12 @@ The output table will look like this. This file will be named "**Trimmed_Zip otu
 ![OTU BLAST tables merged one](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/OTUBLASTTablesMergedOne.PNG)
 
 ### Taxonomic Accumulator
-...
+The “Taxonomic Accumulator” tool can help condense the OTU table into something more applicable. Based on the taxonomy column every identification gets the tool can accumulate all OTUs based on taxonomic level. All OTUs with the same identification get grouped together.
+
+In order to create this file:
+* Select "Taxonomic Accumulator" tool under "**Post Proessing Tools**".
+* Select "OTU file + new BLAST" under "**BLAST, OTU, zip or LCA?**".
+* Select "**Trimmed Zip otu table metadata**" (the output file from step 8) under "**OTU file + new BLAST**".
+
+The output table will look like this. This file will be named "**Accumulated**".  
+![Taxonomic Accumulator Output](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/TaxonomicAccumulatorOutput.PNG)
