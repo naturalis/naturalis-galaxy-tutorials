@@ -150,9 +150,20 @@ The output table will look like this. This file will be named "**Trimmed_Zip otu
 The “Taxonomic Accumulator” tool can help condense the OTU table into something more applicable. Based on the taxonomy column every identification gets the tool can accumulate all OTUs based on taxonomic level. All OTUs with the same identification get grouped together.
 
 In order to create this file:
-* Select "Taxonomic Accumulator" tool under "**Post Proessing Tools**".
+* Select "Taxonomic Accumulator" tool under "**Post Processing Tools**".
 * Select "OTU file + new BLAST" under "**BLAST, OTU, zip or LCA?**".
-* Select "**Trimmed Zip otu table metadata**" (the output file from step 8) under "**OTU file + new BLAST**".
+* Select "**Trimmed_Zip otu table metadata**" (the output file from step 8) under "**OTU file + new BLAST**".
 
 The output table will look like this. This file will be named "**Accumulated**".  
 ![Taxonomic Accumulator Output](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/TaxonomicAccumulatorOutputTable.PNG)
+
+### Harvest Meta Data
+The “Harvest Meta Data” tool allows a user to collect either occurrence status data or images from the Naturalis, BOLD and ALA databases. This collection is based on the OTU + BLAST table created in step 8.
+
+In order to collect this data:
+* Select "Harvest Meta Data" under "**Metadata Tools**".
+* Select either "Occurrence status" or "Picture collection" under "**Occurrence or pictures?**".
+* Select "OTU file + new BLAST" under "**OTU or LCA?**".
+* Select "**Trimmed_Zip otu table metadata**" (the output file from step 8)  under "**OTU file + new BLAST**".
+
+The output will look like this. This file will be named
