@@ -69,6 +69,13 @@ The output is displayed in the Galaxy history panel.
 ![History panel trimmed primers](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/HistoryPanelPrimerTrimmingFull.png)
 
 A alternative to trimming of primers is the ´Trim primers” tool also found under “**Processing Tools**”. This tool can search for the specific primer sequences and trim based on presence of primers.
+* Select the "Trim primers" tool under "**Processing Tools**".
+* Select "**Tutorial_Samples.zip zip**" (the output file from step 2) under "**zip file containing fasta or fastq files**".
+* Select "gzip files" under "**Input type**".
+* Select "Both need to be present" under "**Settings mode**".
+* Input "GCATCGATGAAGAACGCAGC" in "**Forward primer sequence**".
+* Input "TCCTCCGCTTATTGATATGC" in "**reverse primer sequence**".
+* Remaining settings can be kept at default.
 
 ### Step 4:
 Run a sequence analysis.  
