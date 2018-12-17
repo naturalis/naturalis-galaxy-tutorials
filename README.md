@@ -6,14 +6,14 @@ This tutorial will show a step by step introduction of the Naturalis Galaxy pipe
 
 ### Table of contents:
 * [Preparations](https://github.com/JasperBoom/naturalis-galaxy-tutorial#preparations)
-* [Step 1](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-1)
-* [Step 2](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-2)
-* [Step 3](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-3)
-* [Step 4](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-4)
-* [Step 5](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-5)
-* [Step 6](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-6)
-* [Step 7](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-7)
-* [Step 8](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-8)
+* [Step 1: Upload dataset](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-1)
+* [Step 2: Merge Illumina paired-end reads](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-2)
+* [Step 3: Trim Illumina primers](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-3)
+* [Step 4: Run a sequence analysis](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-4)
+* [Step 5: Trim reads to same length](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-5)
+* [Step 6: Clustering and OTU generation](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-6)
+* [Step 7: Identifying OTUs](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-7)
+* [Step 8: Merging BLAST table and OTU table](https://github.com/JasperBoom/naturalis-galaxy-tutorial#step-8)
 * [Taxonomic Accumulator](https://github.com/JasperBoom/naturalis-galaxy-tutorial#taxonomic-accumulator)
 * [Havest Meta Data](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/README.md#harvest-meta-data)
 
