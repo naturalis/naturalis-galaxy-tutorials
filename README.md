@@ -5,5 +5,5 @@ Naturalis is hosting a galaxy server containing all kinds of tools to perform an
 To make use the galaxy server you first need to create an account. 
 
 ## Tutorials
-A tutorial created by Jasper:<br />
+A tutorial created by Jasper covering all aspects to analyse ITS marker sequences:<br />
 https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Jasper
