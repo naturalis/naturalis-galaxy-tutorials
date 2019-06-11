@@ -1,8 +1,8 @@
 # Naturalis Galaxy Tutorials
-Naturalis is hosting a galaxy server containing all kinds of tools to perform analysis on biological data. This github repo contains tutorials and tool explanations.
+Naturalis is hosting a galaxy server containing all kinds of tools to perform analysis on biological data. This github repo contains tutorials and tool explanations. The server is hosted under hte following address: http://galaxy.naturalis.nl
 
 ## Getting Started
-To make use the galaxy server you first need to create an account. 
+To make use of the galaxy server you first need to create an account. 
 
 ## Full tutorials
 **Basic metabarcoding analyses with multiple FASTQ files** <br />
