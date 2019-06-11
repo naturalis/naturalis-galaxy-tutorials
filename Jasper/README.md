@@ -21,7 +21,7 @@ This tutorial will show a step by step introduction of the Naturalis Galaxy pipe
 In order to start this tutorial, the example dataset will need to be downloaded and an account on the Naturalis Galaxy instance will need to be created.
 * The example dataset in .zip format can be downloaded [here](https://drive.google.com/open?id=1NrdTEC7X2QFrMDJX640B3N5NRp5kRs_R).
 * Create an account by clicking on ´you may create one´. And fill in the form.    
-![Link to account creation form](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/src/CreateAccountFull.PNG)
+![Link to account creation form](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/CreateAccountFull.PNG)
 * Make sure to verify your email address.
 
 ### Step 1:
