@@ -28,15 +28,15 @@ In order to start this tutorial, the example dataset will need to be downloaded 
 Upload the example dataset to the Naturalis Galaxy instance.  
 Files of almost any kind can be uploaded to Galaxy. This is done by clicking on upload button in the upper left corner.
 * Click on the “up” arrow in the upper left corner (next to the “**Tools**” menu name).  
-![Upload file button](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/UploadFull.PNG)
+![Upload file button](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/UploadFull.PNG)
 * Select the “Tutorial_Samples.zip” file.  
-![Button for file choosing](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/UploadSelectFull.PNG)
+![Button for file choosing](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/UploadSelectFull.PNG)
 * Manually set the format for the file to “zip”.  
-![Search field for file format](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/UploadManualFull.PNG)
+![Search field for file format](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/UploadManualFull.PNG)
 * Click on "start" to submit the dataset.  
-![Button for starting file upload](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/UploadStartFull.PNG)
+![Button for starting file upload](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/UploadStartFull.PNG)
 * The dataset will show up in the Galaxy history panel on the right side of the screen.  
-![History panel](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/HistoryPanelFull.PNG)
+![History panel](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/HistoryPanelFull.PNG)
 
 ### Step 2:
 Merge Illumina paired-end reads.  
@@ -50,7 +50,7 @@ Maximum overlap --> 300
 Mismatch ratio  --> 0.25
 Output          --> Output merged reads only
 ```
-![History panel merged reads](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/MergedReadsFull.PNG)
+![History panel merged reads](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/MergedReadsFull.PNG)
 
 ### Step 3:
 Trim Illumina primers.  
@@ -63,10 +63,10 @@ The example dataset has now been merged. However, it still contains universal IT
 Trim reads at the 5'-end --> 25
 Trim reads at the 3'-end --> 25
 ```
-![Sequence trimmer options](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/PrimerTrimmingFull.PNG)
+![Sequence trimmer options](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/PrimerTrimmingFull.PNG)
 
 The output is displayed in the Galaxy history panel.  
-![History panel trimmed primers](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/HistoryPanelPrimerTrimmingFull.png)
+![History panel trimmed primers](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/HistoryPanelPrimerTrimmingFull.png)
 
 A alternative to trimming of primers is the ´Trim primers” tool also found under “**Processing Tools**”. This tool can search for the specific primer sequences and trim based on presence of primers.
 * Select the "Trim primers" tool under "**Processing Tools**".
@@ -86,14 +86,14 @@ With the universal ITS primers trimmed off, the reads are ready for a sequence a
 * Select "**Trimmed_Zip**" (the output file from step 3) under "**Zip file.**".
 
 The tool will output a file with a length distribution graphic.  
-![Sequence analyzer output](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/SequenceAnalyzerOne.PNG)  
+![Sequence analyzer output](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/SequenceAnalyzerOne.PNG)  
 Based on this distribution, another set of trimming options can be determined.  
 The clustering methods UPARSE and UNOISE available in the Naturalis Galaxy pipeline work best with input that is as much of the same length as possible (without losing/trimming off too much of your dataset).
 
 ### Step 5:
 Trim reads to same length.  
 The majority of reads, and the largest peak can be found at a length of 359. Everything beyond that length can be cut back to 359 from the 3’-end, this way you retain relevant information, but still achieve a smaller length distribution. Anything below a length of 300 can be discarded.  
-![Sequence length distribution](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/LengthTrimmingFull.PNG)
+![Sequence length distribution](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/LengthTrimmingFull.PNG)
 * Select the "CuAdapt Sequence Trimmer" tool under "**Processing Tools**".
 * Select "Zip file" under "**FastQ or zip?**".
 * Select "**Trimmed_Zip**" (the output file from step 4) under "**Zip file.**".
@@ -103,7 +103,7 @@ Trim reads from 3'-end to certain legnth --> 359
 Discard reads below certain length       --> 300
 ```
 The results of this trimming can be checked by doing another sequence analysis.  
-![Sequence length analysis](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/SequenceAnalyzerTwo.PNG)
+![Sequence length analysis](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/SequenceAnalyzerTwo.PNG)
 
 ### Step 6:
 Clustering and OTU generation.  
@@ -114,7 +114,7 @@ The example dataset has now been prepared for clustering. The clustering method 
 * Remaining settings can be kept at default.
 
 The output table will look like this. This file will be named "**Trimmed_Zip otu table**".  
-![OTU output table one](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/OTUTableOne.PNG)  
+![OTU output table one](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/OTUTableOne.PNG)  
 Along with the OTU table. A sequence file has been generated named "Trimmed Zip sequence".  
 The third file "Trimmed_Zip log" will not be used in this tutorial.  
 
@@ -129,7 +129,7 @@ The newly generated file named "**Trimmed_Zip sequence**" contains a representat
 Identity percentage cutoff --> 90
 ```
 The output BLAST table will contain 114 lines and look like this. This file will be named "**Trimmed_Zip sequence BLAST original taxonomy**".  
-![BLAST output table one](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/BLASTTableOne.PNG)  
+![BLAST output table one](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/BLASTTableOne.PNG)  
 This file contains a lot of information.  
 * Query ID: this column shows which OTU the identification belongs to.
 * Subject: this column is the full name of the database entry used for the identification.
@@ -152,7 +152,7 @@ Metadata input type --> BLAST
 Fill otu’s with N/A value if not in metadata --> Yes
 ```
 The output table will look like this. This file will be named "**Trimmed_Zip otu table metadata**".  
-![OTU BLAST tables merged one](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/OTUBLASTTablesMergedOne.PNG)
+![OTU BLAST tables merged one](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/OTUBLASTTablesMergedOne.PNG)
 
 ### Taxonomic Accumulator
 The “Taxonomic Accumulator” tool can help condense the OTU table into something more applicable. Based on the taxonomy column every identification gets the tool can accumulate all OTUs based on taxonomic level. All OTUs with the same identification get grouped together.
@@ -163,7 +163,7 @@ In order to create this file:
 * Select "**Trimmed_Zip otu table metadata**" (the output file from step 8) under "**OTU file + new BLAST**".
 
 The output table will look like this. This file will be named "**Accumulated**".  
-![Taxonomic Accumulator Output](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/TaxonomicAccumulatorOutputTable.PNG)
+![Taxonomic Accumulator Output](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/TaxonomicAccumulatorOutputTable.PNG)
 
 ### Harvest Meta Data
 The “Harvest Meta Data” tool allows a user to collect either occurrence status data or images from the Naturalis, BOLD and ALA databases. This collection is based on the OTU + BLAST table created in step 8.
@@ -177,7 +177,7 @@ In order to collect this data:
 The output table will look like this. This file will be named either "Occurrence_Status" or "Pictures".
 
 Occurrence status:  
-![Meta Data Occurrence Status](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/MetaDataOccurrence.PNG)
+![Meta Data Occurrence Status](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/MetaDataOccurrence.PNG)
 
 Picture collection:  
-![Meta Data Pictures](https://github.com/JasperBoom/naturalis-galaxy-tutorial/blob/master/src/MetaDataPictures.PNG)
+![Meta Data Pictures](https://github.com/naturalis/naturalis-galaxy-tutorial/blob/master/Jasper/src/MetaDataPictures.PNG)
