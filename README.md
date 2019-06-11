@@ -12,13 +12,13 @@ A basic tutorial to get started with galaxy and get to know some tools. This tut
 
 **Jasper** <br />
 A tutorial created by Jasper covering all aspects to analyse ITS marker sequences:<br />
-https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Jasper
+**[Tutorial page](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Jasper)**
 
 ## Manuals
 **[Galaxy interactive tours](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Galaxy%20interactive%20tours)**
 <br />
 
-**[LCA Lowest Common Ancestor](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/LCA%20(Lowest%20Common%20Ancestor)**
+**[LCA Lowest Common Ancestor](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/LCA%20Lowest%20Common%20Ancestor)**
 <br />
 
 ## Additional info
