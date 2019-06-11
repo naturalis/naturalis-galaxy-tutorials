@@ -6,8 +6,8 @@ To make use the galaxy server you first need to create an account.
 
 ## Full tutorials
 **Basic metabarcoding analyses with multiple FASTQ files** <br />
-A basic tutorial to get started with galaxy and get to know some tools. This tutorial contains example files.
-
+A basic tutorial to get started with galaxy and get to know some tools. This tutorial contains example files.<br />
+**[Tutorial page](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Basic%20metabarcoding)**
 <br />
 
 **Jasper** <br />
