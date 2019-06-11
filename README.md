@@ -18,7 +18,7 @@ https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Jasper
 **[Galaxy interactive tours](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Galaxy%20interactive%20tours)**
 <br />
 
-**[LCA Lowest Common Ancestor](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/LCA%20(Lowest%20Common%20Ancestor)**
+**[LCA Lowest Common Ancestor](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/LCA%20Lowest%20Common%20Ancestor)**
 <br />
 
 ## Additional info
