@@ -1,1 +1,1 @@
-# How to create an account for the galaxy platform hosted by Naturalis
+# Create an account for galaxy platform hosted by Naturalis
