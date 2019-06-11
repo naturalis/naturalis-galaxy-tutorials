@@ -17,8 +17,7 @@ https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Jasper
 ## Manuals
 **[Galaxy interactive tours](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Galaxy%20interactive%20tours)**
 <br />
-
-**LCA (Lowest Common Ancestor)** <br />
-
+**[LCA (Lowest Common Ancestor)](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/LCA%20(Lowest%20Common%20Ancestor)**
+<br />
 ## Additional info
 Galaxy is an opensource platform, for more info visit this website https://galaxyproject.org/
