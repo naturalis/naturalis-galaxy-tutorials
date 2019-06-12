@@ -24,4 +24,7 @@ Every tool has an input field and a number of different parameter options. For t
 | combine read pairs in both orientations |  Also try combining read pairs in the "outie" orientation. Only use this option if you know what you are doing.  |
 | Output | This parameter has three pre-defined options. It determines which files will be written to the output |
 
-Make sure you select the bulk_samples.zip file as input and click on the execute button. After clicking on this button you will get two new "history blocks" in most right panel. If the block is yellow the tool is running, green means the tool is finished and with red there is something wrong.
+Make sure you select the bulk_samples.zip file as input and click on the execute button. After clicking on this button you will get two new "history blocks" in most right panel. If the block is yellow the tool is running, green means the tool is finished and with red there is something wrong. When the tool in finished you can click on the view icon to view or download your data. You can open a history block by clicking on the link, it and this gives you a few more options like a dowload button. Fow now take a look at the log output.
+<br />
+![merge_log](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Basic%20metabarcoding/img/basic_merge_log.jpg)
+
