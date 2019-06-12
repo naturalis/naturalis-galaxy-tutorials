@@ -5,13 +5,13 @@ Naturalis is hosting a galaxy server containing all kinds of tools to perform an
 To make use of the galaxy server you first need to create an account. 
 
 ## Full tutorials
-**Basic metabarcoding analyses with multiple FASTQ files** <br />
+**Basic metabarcoding analyses with multiple FASTQ files from a bulk sample** <br />
 A basic tutorial to get started with galaxy and get to know some tools. This tutorial contains example files.<br />
 **[Tutorial page](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Basic%20metabarcoding)**
 <br />
 
 **Jasper** <br />
-A tutorial created by Jasper covering all aspects to analyse ITS marker sequences:<br />
+A tutorial created by Jasper covering all aspects to analyse ITS marker sequences. Although this tutorial was made for our previous galaxy version it can still be useful<br />
 **[Tutorial page](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Jasper)**
 
 ## Manuals
