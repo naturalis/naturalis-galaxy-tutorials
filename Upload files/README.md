@@ -16,4 +16,4 @@ Choose the files that you want to upload by dragging the files in to this window
 
 ![upload_type](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Upload%20files/img/upload_uploadedfiles.jpg)
 <br />
-To actually upload and send the files to the server you need to click on the "Start" button.
+To actual upload and send the files to the server you need to click on the "Start" button.
