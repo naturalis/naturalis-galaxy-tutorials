@@ -6,5 +6,21 @@ This tutorial assumes that you have a basic understanding about what galaxy is a
 The first step is to upload the example file, make sure that before you click on the start button you have slected the file type "zip". If you dont know how to do that check out this [page](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Upload%20files)
 
 <br />
-**Merge the paired end reads**<br />
-The first step is to merge the paird-ends, sometimes this is also called doing a paired-end assembly. In galaxy you do this with a tool called "Merge reads"(1). The most left panel is called the tool panel(2) and there you can find all the tools that you need. You can also search for tools by using "search tools" field(3).<br />
+
+**Merge the paired end reads**
+<br />
+The first step is to merge the paird-ends, sometimes this is also called doing a paired-end assembly. In galaxy you do this with a tool called "Merge reads"(1). The most left panel is called the tool panel(2) and there you can find all the tools that you need. You can also search for tools by using "search tools" field(3). The screen looks like this:<br />
+<br />
+![merge](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Basic%20metabarcoding/img/basic_merge.jpg)
+<br />
+Every tool has an input field and a number of different parameter options. For this tutorial we use the default values but if you are going to analyse your own dataset feel free to make adjustments. In the following table there is a short explanation:
+<br />
+
+| Parameter | Description |
+| --- | --- | 
+| input type | Does your zip contain .gz or fastq files  |
+| Minimum overlap | The minimum required overlap length between two reads to provide a confident overlap |
+| Maximum overlap | The maximum allowed overlap, if this option is set to low you will get a warning in the log  |
+| mismatch ratio | Maximum allowed ratio between the number of mismatched base pairs and the overlap length. Two reads will not be combined with a given overlap if that overlap results in a mismatched base density higher than this value. |
+| combine read pairs in both orientations |  Also try combining read pairs in the "outie" orientation. Only use this option if you know what you are doing.  |
+| Output | This parameter has three pre-defined options. It determines which files will be written to the output |
