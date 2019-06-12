@@ -19,6 +19,8 @@ A tutorial created by Jasper covering all aspects to analyse ITS marker sequence
 
 **[Galaxy interactive tours](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Galaxy%20interactive%20tours)**
 
+**[Upload files](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Upload%20files)**
+
 **[LCA Lowest Common Ancestor](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/LCA%20Lowest%20Common%20Ancestor)**
 
 
