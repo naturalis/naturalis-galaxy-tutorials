@@ -30,12 +30,15 @@ Make sure you select the bulk_samples.zip file as input and click on the execute
 ![merge_log](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Basic%20metabarcoding/img/basic_merge_log_output.jpg)
 
 <br />
-**3. Trim primers**
+
+**3. Trim primers**<br />
 The primer sequences always need to be trimmed off, in galaxy you can do this with a tool called "Trim primers". In this tutorial we want to trim off the primers and only want to work with reads where both the forward and reverse primers are found. For the example data the following primer sequences are used:
 
 | Orientation | sequence |
 | --- | --- | 
 | forward | GACWGGWTGRACWGTNTAYCC  |
 | reverse | TGRTTYTTYGGNCAYCCHGAC |
+
+You need to fill in the primer sequence in the orientation on how you can find it back in your fastq files. Often this means that you need to reverse complement it first.  
 
 
