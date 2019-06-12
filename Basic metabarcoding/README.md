@@ -4,7 +4,6 @@ This tutorial assumes that you have a basic understanding about what galaxy is a
 **1.Upload [bulk_samples.zip](https://github.com/naturalis/naturalis-galaxy-tutorials/raw/master/Basic%20metabarcoding/example_files/bulk_samples.zip)**
 <br />
 The first step is to upload the example file, make sure that before you click on the start button you have slected the file type "zip". If you dont know how to do that check out this [page](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Upload%20files)
-
 <br />
 
 **2.Merge the paired end reads**
@@ -24,3 +23,5 @@ Every tool has an input field and a number of different parameter options. For t
 | mismatch ratio | Maximum allowed ratio between the number of mismatched base pairs and the overlap length. Two reads will not be combined with a given overlap if that overlap results in a mismatched base density higher than this value. |
 | combine read pairs in both orientations |  Also try combining read pairs in the "outie" orientation. Only use this option if you know what you are doing.  |
 | Output | This parameter has three pre-defined options. It determines which files will be written to the output |
+
+Make sure you select the bulk_samples.zip file as input and click on the execute button. After clicking on this button you will get two new "history blocks" in most right panel. If the block is yellow the tool is running, green means the tool is finished and with red there is something wrong.
