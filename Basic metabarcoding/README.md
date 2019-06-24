@@ -41,6 +41,19 @@ The primer sequences always need to be trimmed off, in galaxy you can do this wi
 
 You need to fill in the primer sequence in the orientation on how you can find it back in your fastq files. Often this means that you need to reverse complement it first. The make a sequence reverse complement you can for example use this website: http://arep.med.harvard.edu/labgc/adnan/projects/Utilities/revcomp.html
 
+Your window with settings should look like something like this:
+
 ![trim_primers_parameters](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Basic%20metabarcoding/img/trim_primers_parameters.jpg)
+
+In the following table there is a short explanation:
+
+| Parameter | Description |
+| --- | --- | 
+| input type | Does your zip contain .gz or fastq files  |
+| Settings mode | This parameter determines the output and which settings you need to fill in later. <br /> <ul><li>Trim forward primers only, look only for the forward primers and trim it off. Only if the primer is found the read will be written to the output file</li><li>Trim reverse primers only, look only for the forward primers and trim it off. Only if the primer is found the read will be written to the output file</li><li>Both need to be present, check the forward and reverse primer are present and trim it off. Only if both primers are found the read will be written to the output file</li><li>Both need to be present and are anchored, check if the forward and reverse primer are present on the very outside of the read and trim it off. Only if both primers are found the read will be written to the output file</li><li>Forward needs to be present, reverse is optional. This first checks if the forward primer is present and trims it off. If the forward primer is found the reverse primer will be checked. The read is written to the output file if the forward primer is found</li></ul> |
+| Maximum overlap | The maximum allowed overlap, if this option is set to low you will get a warning in the log  |
+| mismatch ratio | Maximum allowed ratio between the number of mismatched base pairs and the overlap length. Two reads will not be combined with a given overlap if that overlap results in a mismatched base density higher than this value. |
+| combine read pairs in both orientations |  Also try combining read pairs in the "outie" orientation. Only use this option if you know what you are doing.  |
+| Output | This parameter has three pre-defined options. It determines which files will be written to the output |
 
 
