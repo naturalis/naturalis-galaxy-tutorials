@@ -39,6 +39,8 @@ The primer sequences always need to be trimmed off, in galaxy you can do this wi
 | forward | GACWGGWTGRACWGTNTAYCC  |
 | reverse | TGRTTYTTYGGNCAYCCHGAC |
 
-You need to fill in the primer sequence in the orientation on how you can find it back in your fastq files. Often this means that you need to reverse complement it first.  
+You need to fill in the primer sequence in the orientation on how you can find it back in your fastq files. Often this means that you need to reverse complement it first. The make a sequence reverse complement you can for example use this website: http://arep.med.harvard.edu/labgc/adnan/projects/Utilities/revcomp.html
+
+![trim_primers_parameters](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Basic%20metabarcoding/img/trim_primers_parameters.jpg)
 
 
