@@ -55,3 +55,11 @@ In the following table there is a short explanation:
 | Minimum  | All searches for adapter sequences are error tolerant. Allowed errors are mismatches, insertions and deletions. The level of error tolerance is adjusted by specifying a maximum error rate, which is 0.1 (=10%) by default.  |
 | Minimum read length  | Discard processed reads that are shorter than this length  |
 | Output untrimmed sequences | When this is set to yes you will can an extra outputfile containing the untrimmed reads  |
+
+<br />
+
+**4. Check length distribution**<br />
+A good and easy check if your primers worked and amplified your target is to check the length distribution. This is the length of the sequences in your FASTQ files. Beforehand you mostly know the length of range of lengths of your target. You can check this with the "Sequence analyzer" tool. As input for this tool you can use the output of step 3. After executing this tool you will get more information then only the length distribution. In this basic tutorial we will not look at the other information. The graph will look like something like this:
+![length_distribution](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Basic%20metabarcoding/img/length_distribution.jpg)
+
+
