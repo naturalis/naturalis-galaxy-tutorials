@@ -59,7 +59,11 @@ In the following table there is a short explanation:
 <br />
 
 **4. Check length distribution**<br />
-A good and easy check if your primers worked and amplified your target is to check the length distribution. This is the length of the sequences in your FASTQ files. Beforehand you mostly know the length of range of lengths of your target. You can check this with the "Sequence analyzer" tool. As input for this tool you can use the output of step 3. After executing this tool you will get more information then only the length distribution. In this basic tutorial we will not look at the other information. The graph will look like something like this:
+A good and easy check if your primers worked and amplified your target is to check the length distribution. This is the length of the sequences in your FASTQ files. Beforehand you mostly know the length or range of lengths of your target. You can check this with the "Sequence analyzer" tool. As input for this tool you can use the output of step 3. After executing this tool you will get more information then only the length distribution. In this basic tutorial we will not look at the other information. The graph will look like something like this:
 ![length_distribution](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Basic%20metabarcoding/img/length_distribution.jpg)
+
+**5. Filter on length**<br />
+As you can see on the output of step 4 there are a few reads smaller then the expected target. With this example data it is not clear to see that in the bar chart but you can see that there are reads found with a length of 13bp. The expected length of the exampel data is between 310 and 320 bp. We are not interested in reads smaller or longer so we need to filter them out. You can do this with a tool called "Sequence trimmer". This tool has many parameters but for now we only set **Minimum read length=310** and **Maximum read length=320**
+
 
 
