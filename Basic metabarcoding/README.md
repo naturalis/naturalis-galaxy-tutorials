@@ -66,7 +66,7 @@ A good and easy check if your primers worked and amplified your target is to che
 As you can see on the output of step 4 there are a few reads smaller then the expected target. With this example data it is not clear to see that in the bar chart but you can see that there are reads found with a length of 13bp. The expected length of the exampel data is between 310 and 320 bp. We are not interested in reads smaller or longer so we need to filter them out. You can do this with a tool called "Sequence trimmer". This tool has many parameters but for now we only set **Minimum read length=310** and **Maximum read length=320**. The input for this tool is the zip output of step 3.
 
 **6. Create an otu table**<br />
-For many research goals an otu table can help to make your data easyer readable. You can create such table with the tool called "Make otu table". The input for this tool is the zip output of step 5. More info about this tool can be found here: https://github.com/naturalis/galaxy-tool-make-otu-table
+For many research goals an otu table can help to make your data easier readable. You can create such table with the tool called "Make otu table". The input for this tool is the zip output of step 5. More info about this tool can be found here: https://github.com/naturalis/galaxy-tool-make-otu-table
 
 <br />**NOTE: this tutorial is still a work in progress**
 
