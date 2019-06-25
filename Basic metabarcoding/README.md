@@ -68,6 +68,6 @@ As you can see on the output of step 4 there are a few reads smaller then the ex
 **6. Create a otu table**<br />
 For many research goals an otu table can help to make your data easyer readable. You can create such table with the tool called "Make otu table". The input for this tool is the zip output of step 5. More info about this tool can be found here: https://github.com/naturalis/galaxy-tool-make-otu-table
 
-
+<br />**NOTE: this tutorial is still a work in progress**
 
 
