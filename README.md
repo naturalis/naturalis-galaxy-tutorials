@@ -1,10 +1,15 @@
 # Naturalis Galaxy Tutorials
-Naturalis is hosting a galaxy server containing all kinds of tools to perform analysis on biological data. This github repo contains tutorials and tool explanations. The server is hosted under hte following address: http://galaxy.naturalis.nl
+Naturalis is hosting a galaxy server containing a selection of tools to perform analysis on biological data. This github repo contains tutorials and tool explanations. The server is hosted under hte following address: http://galaxy.naturalis.nl
 
 ## Getting Started
 To make use of the galaxy server you first need to create an account. 
 
-## Full tutorials
+## Tutorials
+
+**Metabarcoding tutorial by Yorinde Nuytinck**  <br />
+This tutorial was made for the course [Methods in Biodiversity Analysis](https://naturalis.github.io/mebioda/) and largely supersedes the metabarcoding tutorial below.<br />
+**[Tutorial page](https://naturalis.github.io/mebioda/doc/week1/w1p1/)**
+
 **Basic metabarcoding analyses with multiple FASTQ files from a bulk sample** <br />
 A basic tutorial to get started with galaxy and get to know some tools. This tutorial contains example files.<br />
 **[Tutorial page](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Basic%20metabarcoding)**
