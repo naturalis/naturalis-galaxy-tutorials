@@ -19,7 +19,7 @@ A basic tutorial to get started with galaxy and get to know some tools. This tut
 This tutorial describes the analysis of ITS marker sequences. It was used with a previous version of Galaxy and is mainly kept for archival purposes.<br />
 **[Tutorial page](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Jasper)**
 
-## Manuals
+## Instructions
 **[Create an account](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Create%20account)**
 
 **[Galaxy interactive tours](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Galaxy%20interactive%20tours)**
