@@ -1,4 +1,4 @@
-## Subset gz.zip and trim primer
+## Manage zip and Cutadapt
 
 This very short instruction is written for a specific use case\
 where a zip-archive of gzipped fastq files needs to subsetted\
