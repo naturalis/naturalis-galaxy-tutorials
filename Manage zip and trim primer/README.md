@@ -21,6 +21,6 @@ make sure *input type* is set to gzip files
 ![trim_primer](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Manage%20zip%20and%20trim%20primer/05_cutadapt.jpg)
 
 Repeat these steps for additional subsets (e.g. R2).\
-Trimmed subsets (renamed R1/R2_trimmed_zip) can be downloaded as a single file after combining these\
-archrives with *Manage zip*
+Trimmed subsets (here renamed R1/R2_trimmed_zip) can be downloaded as a single file after combining these\
+archives with 'create zip' from *Manage zip*
 ![combine_archives]()
