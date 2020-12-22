@@ -1,4 +1,4 @@
-## Manage zip and Cutadapt
+## Subset .gz.zip and Cutadapt
 
 This very short instruction is written for a specific use case\
 where a zip-archive of gzipped fastq files needs to subsetted\
