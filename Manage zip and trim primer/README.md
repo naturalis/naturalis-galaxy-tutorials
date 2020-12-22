@@ -24,3 +24,6 @@ Repeat these steps for additional subsets (e.g. R2).\
 Trimmed subsets (here renamed R1/R2_trimmed_zip) can be downloaded as a single file after combining these\
 archives with 'create zip' from *Manage zip*
 ![combine_archives](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Manage%20zip%20and%20trim%20primer/06_create_zip.jpg)
+
+Download the zip-archive of gzipped fastq files
+![download_output](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Manage%20zip%20and%20trim%20primer/07_Download_output.jpg)
