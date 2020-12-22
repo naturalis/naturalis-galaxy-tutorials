@@ -14,6 +14,7 @@ Create a subset (e.g. R1) with *Manage zip*
 ![create_subset](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Manage%20zip%20and%20trim%20primer/03_create_subset.jpg)
 
 For convenience rename the subset (edit attributes) so the contents are clear
-![edit_attributes]
+![edit_attributes](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Manage%20zip%20and%20trim%20primer/04_edit_attributes.jpg)
 
-Select the newl
+Select the created subset with *Trim primers* and provide the primer-sequence that needs to be trimmed
+![trim_primer]()
