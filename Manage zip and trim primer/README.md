@@ -9,5 +9,5 @@ Import the zip-archive
 ![import_screenshot](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Manage%20zip%20and%20trim%20primer/01_import.jpg)
 
 Display the contents of the archive with *Manage zip*
-![display_content]()
+![display_content](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Manage%20zip%20and%20trim%20primer/%2002_display_content.jpg)
 Create a subset (e.g. R1)
