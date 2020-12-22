@@ -6,4 +6,4 @@ into primer specific sets (R1, R2, etc), the primer has to be\
 trimmed and the fastq output exported as .gz.zip again.\
 
 Import the zip-archive
-(https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Manage%20zip%20and%20trim%20primer/01_import.jpg)
+![import_screenshot](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Manage%20zip%20and%20trim%20primer/01_import.jpg)
