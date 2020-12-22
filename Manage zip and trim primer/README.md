@@ -1,8 +1,8 @@
 ## Subset .gz.zip and Cutadapt
 
 This short instruction is written for a specific use case where a zip-archive of gzipped fastq files\
-needs to subsetted into primer specific sets (R1, R2, etc), the primer has to be trimmed and the fastq\
-output exported as .gz.zip again.
+needs to subsetted into primer specific sets (R1, R2, etc), for each set the primer has to be trimmed\
+and the fastq output exported as .gz.zip again.
 
 Import the zip-archive
 ![import_screenshot](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Manage%20zip%20and%20trim%20primer/01_import.jpg)
@@ -19,3 +19,8 @@ For convenience rename the subset (edit attributes) so the contents are clear
 Select the created subset with *Trim primers* and provide the primer-sequence that needs to be trimmed;\
 make sure *input type* is set to gzip files
 ![trim_primer](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Manage%20zip%20and%20trim%20primer/05_cutadapt.jpg)
+
+Repeat these steps for additional subsets (e.g. R2).\
+Trimmed subsets (renamed R1/R2_trimmed_zip) can be downloaded as a single file after combining these\
+archrives with *Manage zip*
+![combine_archives]()
