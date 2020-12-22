@@ -26,6 +26,8 @@ This tutorial describes the analysis of ITS marker sequences. It was used with a
 
 **[Upload files](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Upload%20files)**
 
+**[Manage zip and trim primer](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/Manage%20zip%20and%20trim%20primer)**
+
 **[LCA Lowest Common Ancestor](https://github.com/naturalis/naturalis-galaxy-tutorials/tree/master/LCA%20Lowest%20Common%20Ancestor)**
 
 
