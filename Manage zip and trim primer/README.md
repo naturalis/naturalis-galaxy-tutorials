@@ -18,4 +18,4 @@ For convenience rename the subset (edit attributes) so the contents are clear
 
 Select the created subset with *Trim primers* and provide the primer-sequence that needs to be trimmed;\
 make sure *input type* is set to gzip files
-![trim_primer]()
+![trim_primer](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Manage%20zip%20and%20trim%20primer/05_cutadapt.jpg)
