@@ -11,3 +11,4 @@ Import the zip-archive
 Display the contents of the archive with *Manage zip*
 ![display_content](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Manage%20zip%20and%20trim%20primer/%2002_display_content.jpg)
 Create a subset (e.g. R1) with *Manage zip*
+![create_subset](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Manage%20zip%20and%20trim%20primer/03_create_subset.jpg)
