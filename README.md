@@ -2,8 +2,8 @@
 Naturalis is hosting a galaxy server containing a selection of tools to analyse biological data. This github repo contains tutorials and tool explanations. The server is hosted here:\
 http://galaxy.naturalis.nl
 
-## Getting Started
-To make use of the galaxy server you first need to create an account. 
+## Videos
+**[Naturalis Galaxy intro](https://www.youtube.com/watch?v=2z9Avl2vF2M)**
 
 ## Tutorials
 
