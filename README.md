@@ -1,4 +1,4 @@
-![Naturalis Galaxy](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Cover.png)
+![Naturalis Galaxy](https://github.com/naturalis/naturalis-galaxy-tutorials/blob/master/Cover.jpg)
 
 # Naturalis Galaxy Tutorials
 Naturalis is hosting a galaxy server containing a selection of tools to analyse biological data. This github repo contains tutorials and tool explanations. The server is hosted here:\
